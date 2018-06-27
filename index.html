@@ -23,27 +23,22 @@
     <style>
         /* Prism.js */
         code[class*="language-"], pre[class*="language-"] {color: black; font-family: Consolas, Monaco, 'Andale Mono', monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; } /* Code blocks */ pre[class*="language-"] {padding: 1em; margin: .5em 0; overflow: auto; font-size: 14px; } :not(pre) > code[class*="language-"], pre[class*="language-"] {background: rgba(0, 0, 0, .05); } /* Inline code */ :not(pre) > code[class*="language-"] {padding: .1em; border-radius: .3em; } .token.comment, .token.prolog, .token.doctype, .token.cdata {color: slategray; } .token.punctuation {color: #999; } .namespace {opacity: .7; } .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol {color: #905; } .token.selector, .token.attr-name, .token.string, .token.builtin {color: #690; } .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string, .token.variable {color: #a67f59; } .token.atrule, .token.attr-value, .token.keyword {color: #07a; } .token.regex, .token.important {color: #e90; } .token.important {font-weight: bold; } .token.entity {cursor: help; }
-
         html, body {
             height: 100%;
         }
-
         body {
             margin: 0;
             font-family: "proxima-nova", "Helvetica Neue", sans-serif;
         }
-
         table.showcase {
             height: 100%;
             width: 100%;
             position: relative;
         }
-
         table.showcase .showcase-inner {
             margin: 40px auto 60px;
             padding: 10px;
         }
-
         table.showcase:after {
             content: "";
             display: block;
@@ -60,17 +55,14 @@
             border-color: transparent;
             border-top-color: inherit;
         }
-
         table.showcase.last-showcase:after {
             display: none;
         }
-
         table.showcase .showcase-inner h1 {
             font-size: 50px;
             text-align: center;
             font-weight: 300;
         }
-
         table.showcase .showcase-inner h2 {
             font-size: 24px;
             text-align: center;
@@ -78,11 +70,9 @@
             margin: 1em 0 1em;
             padding: 0 10%;
         }
-
         table.showcase .showcase-inner p {
             text-align: center;
         }
-
         .button {
             display: inline-block;
             border: 2px solid #fff;
@@ -97,45 +87,36 @@
             font-size: .8em;
             line-height: 1.3em;
         }
-
         .button.dark {
             background: #fff;
             color: #0bab74;
         }
-
         table.showcase.hero {
             background: #14c589;
             color: #fff;
         }
-
         table.showcase.hero h1,
         table.showcase.hero h2 {
             color: #fff
         }
-
         table.showcase.hero:after {
             border-top-color: #fff
         }
-
         table.showcase.hero table[data-sortable].sortable-theme-bootstrap {
             font-family: inherit;
             font-size: 16px;
         }
-
         table.showcase.hero table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"] {
             color: #0daf77;
             background: #b8f1dd;
             border-bottom-color: #22bd88;
         }
-
         table.showcase .showcase-inner table[data-sortable] {
             margin: 4em auto 3em;
         }
-
         table.showcase.hero .showcase-inner table[data-sortable] {
             margin-bottom: 1em;
         }
-
         table.showcase .showcase-inner p.source {
             color: rgba(255, 255, 255, .7);
             font-weight: 300;
@@ -145,43 +126,34 @@
             margin: 0 0 3em;
             padding: 0 20%;
         }
-
         table.showcase .showcase-inner p.source a {
             color: inherit;
         }
-
         @media (max-width: 786px) {
             table.showcase .showcase-inner table[data-sortable] tr *:nth-child(4) {
                 display: none;
             }
-
             table.showcase .button.dark {
                 display: none;
             }
         }
-
         @media (max-width: 480px) {
             table.showcase .showcase-inner table[data-sortable] tr *:nth-child(3) {
                 display: none;
             }
         }
-
         table.showcase.about {
             background: #fff1dd;
         }
-
         table.showcase.about {
             background: #fff1dd;
         }
-
         table.showcase.about a {
             color: #c96c24;
         }
-
         table.showcase.about p > code {
             background: rgba(0, 0, 0, .05);
         }
-
         table.showcase.about p,
         table.showcase.about pre {
             text-align: left;
@@ -189,52 +161,42 @@
             max-width: 100%;
             margin-left: auto;
             margin-right: auto;
-
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
         }
-
         @media (max-width: 568px) {
             table.showcase.about p,
             table.showcase.about pre {
                 width: 400px;
             }
         }
-
         @media (max-width: 420px) {
             table.showcase.about p,
             table.showcase.about pre {
                 width: 280px;
             }
         }
-
         table.showcase.themes {
             background: #eee;
         }
-
         table.showcase.themes.sortable-theme-minimal {
             background: #fff;
         }
-
         table.showcase.themes.sortable-theme-light {
             background: #f8f8f8;
         }
-
         table.showcase.themes.sortable-theme-dark {
             background: #323232;
         }
-
         table.showcase.themes.sortable-theme-bootstrap {
             background: #f2f8ff;
         }
-
         table.showcase.themes.sortable-theme-dark h1,
         table.showcase.themes.sortable-theme-dark h2,
         table.showcase.themes.sortable-theme-dark p {
             color: #e6e6e6;
         }
-
         table.showcase.themes .themes-list {
             margin: 4em auto;
             padding: 0;
@@ -242,24 +204,20 @@
             text-align: center;
             font-size: 18px;
         }
-
         table.showcase.themes .themes-list li {
             padding: 0;
             margin: 0;
             display: inline;
         }
-
         table.showcase.themes .themes-list li a {
             cursor: pointer;
             opacity: 0.3;
             padding: .5em;
             display: inline-block;
         }
-
         table.showcase.themes .themes-list li a.selected {
             opacity: 1;
         }
-
         table.showcase.themes.sortable-theme-dark .themes-list li a {
             color: #fff;
         }
@@ -268,210 +226,12 @@
 <body>
     <table class="showcase hero"><tr><td>
         <div class="showcase-inner">
-            <h1>Re-id algorithms v2</h1>
-            <h2>Comparison of Re-id algorithms</h2>
-            
-           
-            <table class="sortable-theme-finder" data-sortable>
-                <thead>
-                    <tr>
-                        <th>Method</th>
-                        <th>backbone</th>
-                        <th>test size</th>
-                        <th>Market1501</th>
-                        <th>CUHK03 (detected)</th>
-                        <th>CUHK03 (detected/new)</th>
-                        <th>CUHK03 (labeled/new)</th>
-                        <th>CUHK-SYSU</th>
-                        <th>DukeMTMC-reID</th>
-                        <th>MARS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>rank1 / mAP</td>
-                        <td>rank1/rank5/rank10</td>
-                        <td>rank1 / mAP</td>
-                        <td>rank1 / mAP</td>
-                        <td>rank1 / mAP</td>
-                        <td></td>
-                        <td>rank1 / mAP</td>
-                    </tr>
-                    <tr>
-                        <td>AlignedReID</td>
-                        <td>ResNet50-X</td>
-                        <td></td>
-                        <td>92.6 / 82.3</td>
-                        <td>91.9 / 98.7 / 99.4</td>
-                        <td></td>
-                        <td>86.8 / 79.1</td>
-                        <td></td>
-                        <td></td>
-                        <td>95.3 / 93.7</td>
-                    </tr>
-                    <tr>
-                        <td>AlignedReID (RK)</td>
-                        <td></td>
-                        <td></td>
-                        <td>94.0 / 91.2</td>
-                        <td>96.1 / 99.5 / 99.6</td>
-                        <td></td>
-                        <td>87.5 / 85.6</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Deep-Person(SQ)</td>
-                        <td>ResNet-50</td>
-                        <td>256×128</td>
-                        <td>92.31 / 79.58</td>
-                        <td>89.4 / 98.2 / 99.1</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>80.90 / 64.80</td>
-                    </tr>
-                    <tr>
-                        <td>Deep-Person(MQ)</td>
-                        <td>ResNet-50</td>
-                        <td>256×128</td>
-                        <td>94.48 / 85.09</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>PCB(SQ)</td>
-                        <td>ResNet-50</td>
-                        <td>384x128</td>
-                        <td>92.4 / 77.3</td>
-                        <td></td>
-                        <td>61.3 / 54.2</td>
-                        <td></td>
-                        <td></td>
-                        <td>81.9 / 65.3</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>PCB+RPP(SQ)</td>
-                        <td>ResNet-50</td>
-                        <td>384x128</td>
-                        <td>93.8 / 81.6</td>
-                        <td></td>
-                        <td>63.7 / 57.5</td>
-                        <td></td>
-                        <td></td>
-                        <td>83.3 / 69.2</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>PN-GAN (SQ)</td>
-                        <td>ResNet-50</td>
-                        <td></td>
-                        <td>95.52 / 89.94</td>
-                        <td>92.66 / 99.84 / 100</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>91.47 / 81.39</td>
-                    </tr>
-                    <tr>
-                        <td>PN-GAN (MQ)</td>
-                        <td>ResNet-50</td>
-                        <td></td>
-                        <td>95.90 / 91.37</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>MGN (SQ)</td>
-                        <td>ResNet-50</td>
-                        <td></td>
-                        <td>95.7 / 86.9</td>
-                        <td></td>
-                        <td>66.8 / 66.0</td>
-                        <td>68.0 / 67.4</td>
-                        <td></td>
-                        <td>88.7 / 78.4</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>MGN (MQ)</td>
-                        <td>ResNet-50</td>
-                        <td></td>
-                        <td>96.9 / 90.7</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>MGN (SQ+RK)</td>
-                        <td>ResNet-50</td>
-                        <td></td>
-                        <td>96.6 / 94.2</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>MGN (MQ+RK)</td>
-                        <td>ResNet-50</td>
-                        <td></td>
-                        <td>97.1 / 95.9</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>HPM(SQ)</td>
-                        <td>ResNet-50</td>
-                        <td>384x128</td>
-                        <td>94.2 / 82.7</td>
-                        <td></td>
-                        <td>63.1 / 57.5</td>
-                        <td></td>
-                        <td></td>
-                        <td>86.6 / 74.3</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>HPM+HRE(SQ)</td>
-                        <td>ResNet-50</td>
-                        <td>384x128</td>
-                        <td>93.9 / 83.1</td>
-                        <td></td>
-                        <td>63.2 / 59.7</td>
-                        <td></td>
-                        <td></td>
-                        <td>86.3 / 74.5</td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            
-            
+            <h1>Sortable</h1>
+            <h2>Drop-in script to make your tables sortable.</h2>
+            <p>
+                <a class="button" href="http://github.com/hubspot/sortable">★ On Github</a> &nbsp;&nbsp;
+                <a class="button dark" href="https://github.com/HubSpot/sortable/releases">Download</a>
+            </p>
             <table class="sortable-theme-bootstrap" data-sortable>
                 <thead>
                     <tr>
@@ -645,15 +405,12 @@
                     <script>
                         (function(){
                             var recommends, button;
-
                             if (Math.random() >= 0.5) {
                                 recommends = ['hubspotdev', 'zackbloom', 'adamfschwartz'];
                             } else {
                                 recommends = ['hubspotdev', 'adamfschwartz', 'zackbloom'];
                             }
-
                             button = document.querySelector('.twitter-share-button');
-
                             if (button) {
                                 button.setAttribute('data-related', recommends.join(','));
                             }
@@ -675,9 +432,7 @@
     <script>
         (function(){
             var themeLinks, i;
-
             themeLinks = document.querySelectorAll('.themes-list a');
-
             for (i = 0; i < themeLinks.length; i++) {
                 themeLinks[i].addEventListener('click', function(){
                     for (var i = 0; i < themeLinks.length; i++) {
@@ -707,7 +462,6 @@
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
         ga('create', 'UA-45159009-1', 'hubspot.com');
         ga('send', 'pageview');
     </script>
