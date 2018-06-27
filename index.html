@@ -268,12 +268,209 @@
 <body>
     <table class="showcase hero"><tr><td>
         <div class="showcase-inner">
-            <h1>Sortable</h1>
-            <h2>Drop-in script to make your tables sortable.</h2>
-            <p>
-                <a class="button" href="http://github.com/hubspot/sortable">★ On Github</a> &nbsp;&nbsp;
-                <a class="button dark" href="https://github.com/HubSpot/sortable/releases">Download</a>
-            </p>
+            <h1>Re-id algorithms</h1>
+            <h2>Comparison of Re-id algorithms</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>backbone</th>
+                        <th>test size</th>
+                        <th>Market1501</th>
+                        <th>CUHK03 (detected)</th>
+                        <th>CUHK03 (detected/new)</th>
+                        <th>CUHK03 (labeled/new)</th>
+                        <th>CUHK-SYSU</th>
+                        <th>DukeMTMC-reID</th>
+                        <th>MARS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>rank1 / mAP</td>
+                        <td>rank1/rank5/rank10</td>
+                        <td>rank1 / mAP</td>
+                        <td>rank1 / mAP</td>
+                        <td>rank1 / mAP</td>
+                        <td></td>
+                        <td>rank1 / mAP</td>
+                    </tr>
+                    <tr>
+                        <td>AlignedReID</td>
+                        <td>ResNet50-X</td>
+                        <td></td>
+                        <td>92.6 / 82.3</td>
+                        <td>91.9 / 98.7 / 99.4</td>
+                        <td></td>
+                        <td>86.8 / 79.1</td>
+                        <td></td>
+                        <td></td>
+                        <td>95.3 / 93.7</td>
+                    </tr>
+                    <tr>
+                        <td>AlignedReID (RK)</td>
+                        <td></td>
+                        <td></td>
+                        <td>94.0 / 91.2</td>
+                        <td>96.1 / 99.5 / 99.6</td>
+                        <td></td>
+                        <td>87.5 / 85.6</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Deep-Person(SQ)</td>
+                        <td>ResNet-50</td>
+                        <td>256×128</td>
+                        <td>92.31 / 79.58</td>
+                        <td>89.4 / 98.2 / 99.1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>80.90 / 64.80</td>
+                    </tr>
+                    <tr>
+                        <td>Deep-Person(MQ)</td>
+                        <td>ResNet-50</td>
+                        <td>256×128</td>
+                        <td>94.48 / 85.09</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>PCB(SQ)</td>
+                        <td>ResNet-50</td>
+                        <td>384x128</td>
+                        <td>92.4 / 77.3</td>
+                        <td></td>
+                        <td>61.3 / 54.2</td>
+                        <td></td>
+                        <td></td>
+                        <td>81.9 / 65.3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>PCB+RPP(SQ)</td>
+                        <td>ResNet-50</td>
+                        <td>384x128</td>
+                        <td>93.8 / 81.6</td>
+                        <td></td>
+                        <td>63.7 / 57.5</td>
+                        <td></td>
+                        <td></td>
+                        <td>83.3 / 69.2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>PN-GAN (SQ)</td>
+                        <td>ResNet-50</td>
+                        <td></td>
+                        <td>95.52 / 89.94</td>
+                        <td>92.66 / 99.84 / 100</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>91.47 / 81.39</td>
+                    </tr>
+                    <tr>
+                        <td>PN-GAN (MQ)</td>
+                        <td>ResNet-50</td>
+                        <td></td>
+                        <td>95.90 / 91.37</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>MGN (SQ)</td>
+                        <td>ResNet-50</td>
+                        <td></td>
+                        <td>95.7 / 86.9</td>
+                        <td></td>
+                        <td>66.8 / 66.0</td>
+                        <td>68.0 / 67.4</td>
+                        <td></td>
+                        <td>88.7 / 78.4</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>MGN (MQ)</td>
+                        <td>ResNet-50</td>
+                        <td></td>
+                        <td>96.9 / 90.7</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>MGN (SQ+RK)</td>
+                        <td>ResNet-50</td>
+                        <td></td>
+                        <td>96.6 / 94.2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>MGN (MQ+RK)</td>
+                        <td>ResNet-50</td>
+                        <td></td>
+                        <td>97.1 / 95.9</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>HPM(SQ)</td>
+                        <td>ResNet-50</td>
+                        <td>384x128</td>
+                        <td>94.2 / 82.7</td>
+                        <td></td>
+                        <td>63.1 / 57.5</td>
+                        <td></td>
+                        <td></td>
+                        <td>86.6 / 74.3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>HPM+HRE(SQ)</td>
+                        <td>ResNet-50</td>
+                        <td>384x128</td>
+                        <td>93.9 / 83.1</td>
+                        <td></td>
+                        <td>63.2 / 59.7</td>
+                        <td></td>
+                        <td></td>
+                        <td>86.3 / 74.5</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+            
             <table class="sortable-theme-bootstrap" data-sortable>
                 <thead>
                     <tr>
