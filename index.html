@@ -302,6 +302,7 @@
             </tr>
           </table>-->
 <table class="sortable-theme-finder" data-sortable>        
+<table>
 <thead>
 <tr>
 <th>Method</th>
@@ -310,6 +311,8 @@
 <th>test size</th>
 <th>Market1501 (Single Query)</th>
 <th>Market1501 (Multi Query)</th>
+<th>VIPeR</th>
+<th>3DPeS</th>
 <th>CUHK01</th>
 <th>CUHK03 (detected)</th>
 <th>CUHK03 (labeled)</th>
@@ -318,9 +321,13 @@
 <th>CUHK-SYSU</th>
 <th>DukeMTMC-reID</th>
 <th>MARS</th>
+<th>SenseReID</th>
+<th>PRID2011</th>
+<th>iLIDS-VID</th>
+<th>3DPeS</th>
 </tr>
   </thead>
-  <tbody>
+    <tbody>
 <tr>
 <td> </td>
 <td> </td>
@@ -331,11 +338,17 @@
 <td>rank1/rank5/rank10</td>
 <td>rank1/rank5/rank10</td>
 <td>rank1/rank5/rank10</td>
+<td>rank1/rank5/rank10 (mAP)</td>
+<td>rank1/rank5/rank10</td>
 <td>rank1 / mAP</td>
 <td>rank1 / mAP</td>
 <td>rank1 / mAP</td>
 <td>rank1 / mAP</td>
 <td>rank1 / mAP</td>
+<td>rank1/rank5/rank10</td>
+<td>rank1</td>
+<td>rank1</td>
+<td> </td>
 </tr>
 <tr>
 <td>AlignedReID</td>
@@ -345,6 +358,8 @@
 <td>92.6 / 82.3</td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>91.9 / 98.7 / 99.4</td>
 <td> </td>
 <td> </td>
@@ -352,6 +367,10 @@
 <td>95.3 / 93.7</td>
 <td> </td>
 <td>86.8 / 79.1</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>
@@ -365,6 +384,8 @@
 <td>94.0 / 91.2</td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>96.1 / 99.5 / 99.6</td>
 <td> </td>
 <td> </td>
@@ -372,6 +393,10 @@
 <td> </td>
 <td> </td>
 <td>87.5 / 85.6</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>Deep-Person</td>
@@ -381,6 +406,8 @@
 <td>92.31 / 79.58</td>
 <td>94.48 / 85.09</td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>89.4 / 98.2 / 99.1</td>
 <td> </td>
 <td> </td>
@@ -388,6 +415,10 @@
 <td> </td>
 <td> </td>
 <td>80.90 / 64.80</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>PCB</td>
@@ -399,10 +430,16 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>61.3 / 54.2</td>
 <td> </td>
 <td> </td>
 <td>81.9 / 65.3</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -415,10 +452,16 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>63.7 / 57.5</td>
 <td> </td>
 <td> </td>
 <td>83.3 / 69.2</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -429,6 +472,8 @@
 <td>95.52 / 89.94</td>
 <td>95.90 / 91.37</td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>92.66 / 99.84 / 100</td>
 <td> </td>
 <td> </td>
@@ -436,6 +481,10 @@
 <td> </td>
 <td> </td>
 <td>91.47 / 81.39</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>MGN</td>
@@ -447,10 +496,16 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>66.8 / 66.0</td>
 <td>68.0 / 67.4</td>
 <td> </td>
 <td>88.7 / 78.4</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -460,6 +515,12 @@
 <td> </td>
 <td>96.6 / 94.2</td>
 <td>97.1 / 95.9</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -479,10 +540,16 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>63.1 / 57.5</td>
 <td> </td>
 <td> </td>
 <td>86.6 / 74.3</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -495,10 +562,16 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>63.2 / 59.7</td>
 <td> </td>
 <td> </td>
 <td>86.3 / 74.5</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -509,12 +582,18 @@
 <td>90.0 / 74.3</td>
 <td>92.3 / 82.4</td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>82.8 (89.2*)</td>
 <td> </td>
 <td>52.8 / 47.8</td>
 <td>54.7 / 49.2</td>
 <td> </td>
 <td>81.0 / 62.8</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -524,11 +603,17 @@
 <td> </td>
 <td>76.9 /</td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>79.9 / 94.4 97.1</td>
 <td>88.5 / 97.8 / 98.6</td>
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>34.6 / 52.7 /59.9</td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -547,7 +632,13 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>86.3 / 76.1</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>GCS-CRF</td>
@@ -557,12 +648,18 @@
 <td>93.5 / 81.6</td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>88.8 / 97.2</td>
 <td>90.2 / 98.5</td>
 <td> </td>
 <td> </td>
 <td> </td>
 <td>84.9 / 69.5</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -578,7 +675,13 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>46.9 / 26.4</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -588,9 +691,15 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>88.2 / 98.2 / 99.35</td>
 <td>86.45 / 97.5 / 99.1</td>
 <td>87.5 / 97.85 / 99.45</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -612,6 +721,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 <tr>
 <td>AOS</td>
@@ -623,10 +738,16 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>47.14 / 43.33</td>
 <td> </td>
 <td> </td>
 <td>79.17 / 62.10</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td> </td>
 </tr>
 <tr>
@@ -639,14 +760,649 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
 <td>54.56 / 56.09</td>
 <td> </td>
 <td> </td>
 <td>84.11 / 78.19</td>
 <td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>SPReID</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>93.68 / 83.36</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>94.28 / 99.04 / 99.56</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>85.95 / 73.34</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>SPReID (RK)</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>94.63 / 90.96</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>96.22 / 99.34 / 99.7</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>88.96 / 84.99</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>DRSA</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>82.3 / 65.8</td>
+<td> </td>
+<td>93.2</td>
+<td>80.2</td>
+<td> </td>
+</tr>
+<tr>
+<td>HA-CNN</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>91.2 / 75.7</td>
+<td>93.8 / 82.8</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>41.7 / 38.6</td>
+<td>44.4 / 41.0</td>
+<td> </td>
+<td>80.5 / 63.8</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Pose-transfer</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>87.65 / 68.92</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>41.6 / 38.7</td>
+<td>45.1 / 42.0</td>
+<td> </td>
+<td>78.52 / 56.91</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>AWTL</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>89.46 / 75.67</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>79.8 / 63.4</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>PSE</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>87.7 / 69.0</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>79.8 / 62.0</td>
+<td>72.1 / 56.9</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>PSE (RK ECN)</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>90.3 / 84.0</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>85.2 / 79.8</td>
+<td>76.7 / 71.8</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>DGSRW</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>92.7 / 82.5</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>94.9 / 98.7 / 99.3 (94.0)</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>80.7 / 66.4</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>DKPM</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>90.1 / 75.3</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>91.1 / 98.3 / 99.1 (89.2)</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>80.3 / 63.2</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>DuATM</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>91.42 / 76.62</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>81.82 / 64.58</td>
+<td>78.74 / 62.26</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>MGCAM</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>75.66 / 61.29</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>MGCAM (RK)</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>83.79 / 74.33</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>46.71 / 46.87</td>
+<td>50.14 / 50.21</td>
+<td> </td>
+<td> </td>
+<td>77.17 / 71.17</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>REBB</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>81.2 / -</td>
+<td> </td>
+<td>51.9 / 74.4 / 84.8</td>
+<td>65.6 / 88.1 / 91.5</td>
+<td>82.5 / 96.1 / 98.2</td>
+<td>92.5 / 98.4 / 98.9</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<div>
+<div>TJ-AIDL (U) (Duke)</div>
+</div>
+</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>58.2 / 26.5</td>
+<td> </td>
+<td>35.1 / - / -</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>34.8</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<div>
+<div>TJ-AIDL (U) (Market)</div>
+</div>
+</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>38.5 / - / -</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>44.3 / 23.0</td>
+<td> </td>
+<td> </td>
+<td>26.8</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>DaRe</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>89.0 / 76.0</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>63.3 / 59.0</td>
+<td>66.1 / 61.6</td>
+<td> </td>
+<td>80.2 / 64.5</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>DaRe (RK)</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>90.9 / 86.7</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>70.6 / 71.6</td>
+<td>73.8 / 74.7</td>
+<td> </td>
+<td>84.4 / 80.0</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>BraidNet-CS</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>83.7 / 69.48</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>85.85 / - / 98.46</td>
+<td>88.18 / - / 98.66</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>76.44 / 59.49</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>EUG (U)</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>72.79 / 63.23</td>
+<td>62.67 / 42.45</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>
+<div>
+<div>EUG (Sup. Baseline )</div>
+</div>
+</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>83.62 / 78.34</td>
+<td>80.75 / 67.39</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>AACN</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>85.9 / 66.87</td>
+<td>89.78 / 75.1</td>
+<td> </td>
+<td> </td>
+<td>88.07 / 96.67 / 98.77</td>
+<td>89.51 / 97.68 / 98.77</td>
+<td>91.39 / 98.89 / 99.48</td>
+<td>79.14 / 78.37</td>
+<td>81.86 / 81.61</td>
+<td> </td>
+<td>76.84 / 59.25</td>
+<td> </td>
+<td>41.37 / 58.65 / 64.71</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>AACN (RK)</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>88.69 / 82.96</td>
+<td>92.16 / 87.32</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>MSSDM (V)</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>71.2 / -</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>CamStyle</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>89.49 / 71.55</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>78.32 / 57.61</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>MSPReID</td>
+<td> </td>
+<td>2018</td>
+<td> </td>
+<td>63.2</td>
+<td>73.87</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 </tbody>
 </table>
+
 
             
             
