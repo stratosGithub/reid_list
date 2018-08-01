@@ -1,3 +1,6 @@
+Go to gh-pages branch: 
+https://stratosgithub.github.io/reid_list/
+
 ## Sortable
 
 <a href="https://eager.io/app/sortable/install?source=button">
